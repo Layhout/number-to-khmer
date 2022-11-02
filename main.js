@@ -1,12 +1,3 @@
-// $("#box").animate({
-//     width: "500px",
-//     height: "100px",
-//     top: "100px",
-//     left: "100px",
-// }, 5000)
-
-// $("ul").append("<li>4</li>", "<div>5</div>", "<span>6</span>");
-
 $("#numIn").keyup(function (e) {
     const khmer = numToKhmer(e.target.value);
     $("#result").html(khmer);
